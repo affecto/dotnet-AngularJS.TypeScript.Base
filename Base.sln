@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base", "Base\Base.csproj", "{9AE91141-FDA4-47D1-8887-BD74B2C9E7B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base.TypeScriptTests", "Base.TypeScriptTests\Base.TypeScriptTests.csproj", "{53E5E548-A305-4A0B-92F1-23C2493B13C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{BE9CBDDF-997C-4617-8AB5-1F1841998E21}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AE91141-FDA4-47D1-8887-BD74B2C9E7B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AE91141-FDA4-47D1-8887-BD74B2C9E7B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AE91141-FDA4-47D1-8887-BD74B2C9E7B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AE91141-FDA4-47D1-8887-BD74B2C9E7B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53E5E548-A305-4A0B-92F1-23C2493B13C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E5E548-A305-4A0B-92F1-23C2493B13C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E5E548-A305-4A0B-92F1-23C2493B13C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E5E548-A305-4A0B-92F1-23C2493B13C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
